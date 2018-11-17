@@ -46,7 +46,6 @@ class TempMail():
 
 		mails = []
 
-		# for every mail
 		for mail in soup.find('tbody').findChildren("tr"):
 			info = mail.findChildren("td")[0].findChildren()[0]
 			
@@ -59,7 +58,6 @@ class TempMail():
 			content = contentsoup.find("div", {"class":"pm-text"}).decode_contents()
 
 			themail = Email(author=by, content=content,to=self.address,subject=subject)
-			
 			
 			mails.append(themail)
 

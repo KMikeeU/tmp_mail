@@ -23,6 +23,6 @@ def cb(m):
 
 
 # Listen for new emails, whenever a new email is received
-# cb() is called with an Email object as the argument
+# cb is called with an Email object as the argument
 
 mail.checkloop(async=False, callback=cb)
