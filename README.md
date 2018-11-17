@@ -1,5 +1,5 @@
 # Temp-Mail Client
-This project is **unofficial** and is in no way owned or maintained by temp-mail.org nor Privatix. Please use this **respectfully**.
+This project is **unofficial** and is in no way owned or maintained by temp-mail.org nor Privatix. Please use this **respectfully**. This project also does not use the official API!
 
 ## Usage
 To use this project, download as zip and unpack it, or directly clone from github.
