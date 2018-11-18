@@ -4,7 +4,7 @@ import re
 import time
 import _thread
 
-class TempMail():
+class Client():
 	base = "https://temp-mail.org/en"
 	def __init__(self, address: str = None):
 		self.address = address

@@ -10,7 +10,7 @@
 
 # Setup a new email address by random, supply an email as
 # an argument to force it's use
-mail = temp_mail.TempMail()
+mail = temp_mail.Client()
 
 # printing the randomly generated email address
 print(mail.address)
