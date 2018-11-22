@@ -28,7 +28,7 @@ class Client():
 
 	def checkloop(self, callback=lambda m: m, async=True):
 		if async == True:
-			_thread.start_new_thread(self.checkloop(callback=callback, async=False))
+			_thread.start_new_thread(self.checkloop, (), {"callback": callback, "async": False})
 		else:
 			self.check()
 			time.sleep(2)
